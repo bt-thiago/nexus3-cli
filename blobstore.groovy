@@ -1,3 +1,4 @@
+// https://github.com/savoirfairelinux/ansible-nexus3-oss/tree/master/files/groovy
 import groovy.json.JsonSlurper
 
 parsed_args = new JsonSlurper().parseText(args)
